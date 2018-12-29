@@ -10,8 +10,3 @@ System.out.println("The Second number is:"+args[2]);
 double d1=Double.valueOf(args[2]).doubleValue();
 System.out.println("The Sum is:"+addServerIntf.add(d1,d2));
 }
-catch(Exception e){
-System.out.println("Exception:"+e);
-}
-}
-}
